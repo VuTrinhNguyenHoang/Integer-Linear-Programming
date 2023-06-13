@@ -58,7 +58,7 @@ class IntegerLP:
                 answer[1] = optimization.x
 
 if __name__ == '__main__':
-    Data = open('C:\\Users\\linhtd\\Desktop\\Code\\C++\\inp.txt')
+    Data = open('C:\\Users\\linhtd\\Desktop\\Code\\C++\\data.txt')
     start = time.time()
     select = Data.readline() # hàm mục tiêu là max hay min
     n = int(Data.readline()) # số lượng biến
