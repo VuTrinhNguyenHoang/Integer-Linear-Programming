@@ -75,7 +75,6 @@ if __name__ == '__main__':
 
     # xử lí
     for i in range (0, k):
-        print("Binding function", i + 1, end = ": ")
         arr = Data.readline().split()
 
         lst_element = []
@@ -111,7 +110,6 @@ if __name__ == '__main__':
         rhs_eq.append(0)
 
     for i in range (0, n):
-        print("Binding condition of variable", i + 1, end = ": ")
         lst = Data.readline().split()
         lst[0] = int(lst[0]) if lst[0] != 'none' else None
         lst[1] = int(lst[1]) if lst[1] != 'none' else None
